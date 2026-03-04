@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>待办事项应用</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-app">
+        <h1>📋 我的待办清单</h1>
+        <div class="input-container">
+            <input type="text" id="todo-input" placeholder="今天要做什么？">
+            <select id="priority-select">
+                <option value="medium">中</option>
+                <option value="high">高</option>
+                <option value="low">低</option>
+            </select>
+            <button id="add-btn">➕ 添加任务</button>
+        </div>
+        <ul id="todo-list">
+            <!-- 任务项将通过JavaScript动态添加 -->
+        </ul>
+        <div class="stats">
+            <span id="pending-count">0</span> 个待完成，
+            <span id="completed-count">0</span> 个已完成
+            <button id="clear-completed">清空已完成</button>
+            <button id="clear-all">全部清空</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
