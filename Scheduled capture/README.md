@@ -21,7 +21,6 @@
 ├── main.py            # 主程序入口
 ├── requirements.txt   # Python 依赖
 ├── .env.example       # 环境变量模板
-├── .env               # 环境变量（不上传 GitHub）
 └── .gitignore         # Git 忽略配置
 ```
 
@@ -174,3 +173,4 @@ ENABLE_SCHEDULER = False  # False = 禁用，True = 启用
 ## 📄 许可证
 
 MIT License
+
