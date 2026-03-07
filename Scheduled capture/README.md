@@ -140,23 +140,6 @@ SCHEDULE_TIME=09:00  # 每天 09:00 执行
 ENABLE_SCHEDULER = False  # False = 禁用，True = 启用
 ```
 
-## 🔐 安全说明
-
-### 敏感信息保护
-
-- `.env` 文件包含敏感信息（密码、API Key），**不会上传到 GitHub**
-- 通过 `.gitignore` 配置保护
-- 公开仓库只包含 `.env.example` 模板
-
-### Gmail 配置
-
-使用 Gmail 需要开启「应用专用密码」：
-
-1. 访问 [Google 账户安全设置](https://myaccount.google.com/security)
-2. 开启「两步验证」
-3. 生成「应用专用密码」
-4. 将生成的密码填入 `.env` 的 `SMTP_PASSWORD`
-
 ## 📝 依赖说明
 
 | 包名 | 用途 |
@@ -173,4 +156,5 @@ ENABLE_SCHEDULER = False  # False = 禁用，True = 启用
 ## 📄 许可证
 
 MIT License
+
 
